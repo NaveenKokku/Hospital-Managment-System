@@ -15,4 +15,24 @@ public class Room {
         this.acorNac = acorNac;
 
     }
+
+    public String getRoomId() {
+        return roomId;
+    }
+
+    public boolean isOccupied() {
+        return isOccupied;
+    }
+
+    public Patient getPatient() {
+        return patient;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public String getAcorNac() {
+        return acorNac;
+    }
 }
