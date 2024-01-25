@@ -22,4 +22,40 @@ public class Patient {
         this.doctor = doctor;
         this.room = room;
     }
+
+    public String getPid() {
+        return pid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Long getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getDisease() {
+        return disease;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
 }
